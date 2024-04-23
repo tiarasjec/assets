@@ -20,4 +20,4 @@ jobs:
         with:
           secrets: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS }}
           bucket: "tiara-assets"
-          exclude: '.*\.md$|\.gitignore$|\.git/.*$|\_next/.*$|\.github/.*$'
+          exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
